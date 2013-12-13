@@ -31,6 +31,8 @@ In 2011, he wrote a poem every day.
 
 "How many of you have written the same program more than ten times?"
 
+"you must be able to see all the craft elements and thought processes the poet used to create that poem."
+
 Benjamin Zander
 ---------------
 http://www.bgsu.edu/images/mc/img60160.jpg
@@ -39,4 +41,57 @@ http://www.bgsu.edu/images/mc/img60160.jpg
 
 "You can't play great music until your heart has been broken; I say let's have more broken hearts and get on with it."
 
+
+Rules of Code Retreat
+=====================
+- Write tests first
+- Code in 2-tuples (or rarely 3-tuples)
+- Stop in the middle of
+- Delete code (except next to last session)
+
+
+Rules of Simple Design
+======================
+- Passes all tests
+- Express Intent
+- No Duplication
+- Minimal methods, classes, & modules
+
+Conway's Game of Life
+=====================
+http://en.wikipedia.org/wiki/Conway's_Game_of_Life
+
+Rules
+-----
+
+```Haskel
+nextState :: CellState -> NeighborCount -> CellState
+nextState Dead 3 = Alive
+nextState _ n | n < 2 = Dead
+              | n > 3 = Dead
+              | Alive
+```
+
+Videos
+------
+
+http://pmav.eu/stuff/javascript-game-of-life-v3.1.1/ (In JS Running)
+
+http://www.youtube.com/watch?v=a9xAKttWgP4 (APL)
+
+
+Online Editors
+==============
+
+- http://www.cyber-dojo.com/
+- http://C9.io
+
+Interesting Programming Concepts
+================================
+
+- closures
+- fist order functions
+- matrix math
+- functions: map, reduce, filter, unions, intersection
+- lambda
 
