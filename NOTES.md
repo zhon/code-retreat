@@ -1,6 +1,23 @@
 Code Retreat
 ============
 
+Who is here for the first time?
+
+Attribut to Corey Haines & ______
+
+Global Day
+3000 programmers around the world
+United at a Craftsmanship Movement
+
+#gdcr13
+
+post pictures site? hashtag
+
+sponsers
+
+Pluralsight
+Swag
+
 Writers and Musicians Practice
 ------------------------------
 
@@ -80,7 +97,7 @@ Conway's Game of Life
 http://en.wikipedia.org/wiki/Conway's_Game_of_Life
 
 ### Rules
-You have a world containing cells. Each cell has up to 8 neighbors.
+You have a world containing cells. Each cell has 8 neighbors.
 ```
 ...
 .x.
@@ -115,7 +132,12 @@ Online Editors
 Programming Concepts
 --------------------------------
 - OO vs Functional
-- Polymorphism vs Conditionals vs Hashtable vs Matrix math
+- Polymorphism vs Conditionals vs Hashtable vs Matrix
+- Coupling/Cohesion
+- Single Responsibility
+- Dependency Inversion (not learned here)
+- List processing
+- Recursion
 
 ### Functional Programming
 - Closures
@@ -124,20 +146,28 @@ Programming Concepts
 - Recursion
 - Lambda
 
+### Process of Programming
+- thin slice
+- intention revealing
+- short method
+- test coverage
+- tdd
+
 Activities
 ----------
 
 ### Basic Activities
 
-- Ping pong
+- Ping pong *
 - Navigator-driver
-- Paper Design
+- Paper Design *
+- No Computer for 10 minutes
 
 ### Missing Tool Activities
 
 Activities which involve removing a tool developers are used to using in order to help them learn how to use other tools more effectively.
 
-- Mute Pairing
+- Mute Pairing *
 - No Mouse
 - Text editor only
 - Paper only
@@ -147,17 +177,18 @@ Activities which involve removing a tool developers are used to using in order t
 Activities which involve removing a common langauge feature developers are used to using in order to help them learn how to use higher-levels of abstraction to write better code.
 
 - No naked primitives
-- No conditional statements
-- No loops
+- No conditional statements *
+- No loops *
 - No recursion
+- No objects *
 
 ### Quality Constraint Activities
 
 Activities which impose specific quality constraints to help developers practice a particur aspect of well-written code.
 
-- Only four lines per method
+- Only three lines per method *
 - Immutables only, please
-- Tell don't ask
+- Tell don't ask *
 
 ### Stretch Activities
 
@@ -165,6 +196,7 @@ Activities designed to stretch a group. Most of these activities tend to try to 
 
 - Verbs instead of Nouns
 - Code Swap
-- Evil Pair
-- Baby Steps
+- Evil Pair *
+- Baby Steps *
+- Use Metaphor
 
