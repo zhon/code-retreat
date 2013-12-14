@@ -48,6 +48,8 @@ Code Retreat Format
 - Introduction
 - Session 1
 - Sharing & Break
+- Session 2
+- Sharing & Break
 - Session 3
 - Sharing
 - Lunch
@@ -63,7 +65,7 @@ Code Retreat Format
 - Code in 2-tuples (maybe one 3-tuple)
 - Stop means STOP in the middle of
 - Share your code with others
-- Delete code (except next to last session)
+- Delete code (Save you code for the last session)
 
 
 Rules of Simple Design
@@ -122,3 +124,26 @@ Programming Concepts
 - Recursion
 - Lambda
 
+Activities
+----------
+
+### Testing
+- Ping Pong - One person writes the test, the other implements the test
+- Mute Ping Pong - Same as Ping Pong, but the pair is not allowed to talk.  No cheating with comments or any form of writing.  You can talk about things not related to the problem, but you cannot talk about design. (Facilitator note: this should be teaching about expressive design)
+-Evil coder - an activity where the person implementing tries to implement the code in a way the tester doesn’t expect (also teaches expressive design)
+You could combine Mute ping pong and Evil coder
+-Baby steps - Every pair has their own timer. They set it for 5 minutes. They have 5 minutes to write the code.  Then 5 minutes to implement the test.  Then 5 minutes to refactor.  If they don’t finish before the timer goes off they have to delete and start over.  (People get frustrated for the first 10 minutes.)
+
+
+- Remove language concepts
+- No conditional statements (no ifs, no switch, no loops for conditional)
+The alternatives are polymorphism and hashtables
+Conditional statements are a form of primitive obsession (we tend to use the lowest level of abstraction instead of choosing a higher level).  For example, we may choose an int for an employee number instead of an employee number class.
+Every method must be void (very challenging, encourages “tell don’t ask” style)
+In game of life, you might have a GetNextGenaration method.  Instead you might write CreateNextGeneration
+- No loops
+- No naked primitives, they must be enclosed in a class
+- Only 4 lines per method
+- Only use immutable objects
+- Not allowed to touch the mouse (you can use the mouse to discover the keystrokes)
+No editor (not the best idea) teaches people to know their languages well enough they don’t need
