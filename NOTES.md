@@ -1,11 +1,12 @@
+Code Retreat
+============
 
 Writers and Musicians Practice
-==============================
+------------------------------
 
 What does a Writer, a Poet, and a Conductor have in common?
 
-Ray Bradbury
-------------
+### Ray Bradbury
 http://en.wikipedia.org/wiki/File:Ray_Bradbury_2009.jpg
 
     - Wrote every day of his life
@@ -22,8 +23,7 @@ http://en.wikipedia.org/wiki/File:Ray_Bradbury_2009.jpg
 he wrote 3,000,000 words before his first story was accepted at the age of 20
 
 
-Richard P. Gabriel
-------------------
+### Richard P. Gabriel
 http://www.dreamsongs.com/Files/rpg-adj.jpg
 Poet, Geek, Musician
 
@@ -33,8 +33,7 @@ In 2011, he wrote a poem every day.
 
 "you must be able to see all the craft elements and thought processes the poet used to create that poem."
 
-Benjamin Zander
----------------
+### Benjamin Zander
 http://www.bgsu.edu/images/mc/img60160.jpg
 
 "If you make a mistake, celebrate."
@@ -43,10 +42,9 @@ http://www.bgsu.edu/images/mc/img60160.jpg
 
 
 Code Retreat Format
-=====================
+---------------------
 
-Schedule
---------
+### Schedule
 - Introduction
 - Session 1
 - Sharing & Break
@@ -60,8 +58,7 @@ Schedule
 - Session 6
 - Final Group Sharing
 
-Rules of Code Retreat
----------------------
+### Rules of Code Retreat
 - Write all code test first
 - Code in 2-tuples (maybe one 3-tuple)
 - Stop means STOP in the middle of
@@ -70,28 +67,25 @@ Rules of Code Retreat
 
 
 Rules of Simple Design
-======================
+----------------------
 - Passes all tests
 - Express Intent
 - No Duplication
 - Minimal methods, classes, & modules
 
 Conway's Game of Life
-=====================
+---------------------
 http://en.wikipedia.org/wiki/Conway's_Game_of_Life
 
-Rules
------
-You have a world containing cells. Each cell has up to 8 neighbors
-
+### Rules
+You have a world containing cells. Each cell has up to 8 neighbors.
 ```
 ...
 .x.
 ...
 ```
 
-Every generation cells live or die according to the following rules
-
+Every generation, cells live or die according to the following rules:
 
 ```Haskel
 nextState :: CellState -> NeighborCount -> CellState
@@ -101,10 +95,9 @@ nextState _ n | n < 2 = Dead
               | Alive
 ```
 
-All rules are applied at the same time.
+All rules are applied to every cell at the same time.
 
-Videos
-------
+### Videos
 
 http://pmav.eu/stuff/javascript-game-of-life-v3.1.1/ (In JS Running)
 
@@ -112,18 +105,20 @@ http://www.youtube.com/watch?v=a9xAKttWgP4 (APL)
 
 
 Online Editors
-==============
+--------------
 
 - http://www.cyber-dojo.com/
 - http://C9.io
 
-Interesting Programming Concepts
-================================
+Programming Concepts
+--------------------------------
+- OO vs Functional
+- Polymorphism vs Conditionals vs Matrix math
 
-- closures
-- fist order functions
-- matrix math
-- functions: map, reduce, filter, unions, intersection
-- recursion
-- lambda
+### Functional Programming
+- Closures
+- Fist order functions
+- Functions: map, reduce, filter, unions, intersection
+- Recursion
+- Lambda
 
