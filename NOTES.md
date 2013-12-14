@@ -115,7 +115,7 @@ Online Editors
 Programming Concepts
 --------------------------------
 - OO vs Functional
-- Polymorphism vs Conditionals vs Matrix math
+- Polymorphism vs Conditionals vs Hashtable vs Matrix math
 
 ### Functional Programming
 - Closures
