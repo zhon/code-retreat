@@ -5,3 +5,7 @@
   justify-content: center;
 }
 
+iframe {
+    height: 100%;
+    width: 100%;
+}
