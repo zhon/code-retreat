@@ -42,11 +42,30 @@ http://www.bgsu.edu/images/mc/img60160.jpg
 "You can't play great music until your heart has been broken; I say let's have more broken hearts and get on with it."
 
 
-Rules of Code Retreat
+Code Retreat Format
 =====================
-- Write tests first
-- Code in 2-tuples (or rarely 3-tuples)
-- Stop in the middle of
+
+Schedule
+--------
+- Introduction
+- Session 1
+- Sharing & Break
+- Session 3
+- Sharing
+- Lunch
+- Session 4
+- Sharing & Break
+- Session 5 (Save your code!)
+- Sharing & Break
+- Session 6
+- Final Group Sharing
+
+Rules of Code Retreat
+---------------------
+- Write all code test first
+- Code in 2-tuples (maybe one 3-tuple)
+- Stop means STOP in the middle of
+- Share your code with others
 - Delete code (except next to last session)
 
 
@@ -63,6 +82,16 @@ http://en.wikipedia.org/wiki/Conway's_Game_of_Life
 
 Rules
 -----
+You have a world containing cells. Each cell has up to 8 neighbors
+
+```
+...
+.x.
+...
+```
+
+Every generation cells live or die according to the following rules
+
 
 ```Haskel
 nextState :: CellState -> NeighborCount -> CellState
@@ -71,6 +100,8 @@ nextState _ n | n < 2 = Dead
               | n > 3 = Dead
               | Alive
 ```
+
+All rules are applied at the same time.
 
 Videos
 ------
@@ -93,5 +124,6 @@ Interesting Programming Concepts
 - fist order functions
 - matrix math
 - functions: map, reduce, filter, unions, intersection
+- recursion
 - lambda
 
