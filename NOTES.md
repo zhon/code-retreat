@@ -3,22 +3,6 @@ Code Retreat
 
 Who is here for the first time?
 
-Attribut to Corey Haines & ______
-
-Global Day
-3000 programmers around the world
-United at a Craftsmanship Movement
-http://live.coderetreat.org/
-
-#gdcr13
-
-post pictures site? hashtag
-
-sponsers
-
-Pluralsight
-Swag
-
 Writers and Musicians Practice
 ------------------------------
 
@@ -148,7 +132,7 @@ Programming Concepts
 - Lambda
 
 ### Process of Programming
-- thin slice
+- thin slices
 - intention revealing
 - short method
 - test coverage
@@ -204,3 +188,7 @@ Activities designed to stretch a group. Most of these activities tend to try to 
 Other Stuff
 -----------
 https://docs.google.com/document/d/1bNPnb2VGOXLxBWZLyVDyLLZ0MB-F9pEV4GNKQzl0AhM/edit
+
+#gdcr13
+
+
