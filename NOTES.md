@@ -8,6 +8,7 @@ Attribut to Corey Haines & ______
 Global Day
 3000 programmers around the world
 United at a Craftsmanship Movement
+http://live.coderetreat.org/
 
 #gdcr13
 
@@ -200,3 +201,6 @@ Activities designed to stretch a group. Most of these activities tend to try to 
 - Baby Steps *
 - Use Metaphor
 
+Other Stuff
+-----------
+https://docs.google.com/document/d/1bNPnb2VGOXLxBWZLyVDyLLZ0MB-F9pEV4GNKQzl0AhM/edit
